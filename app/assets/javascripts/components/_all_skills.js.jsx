@@ -13,7 +13,7 @@ var AllSkills = React.createClass({
         <div key={skill.id}>
           <Skill skill={skill}
             handleDelete={this.handleDelete.bind(this, skill.id)}
-            handleEdit={this.onUpdate}/>
+            handleUpdate={this.onUpdate}/>
         </div>
       )
     });
