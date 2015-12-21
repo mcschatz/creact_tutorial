@@ -36,9 +36,7 @@ var Body = React.createClass({
       type: 'PUT',
       data: { skill: skill },
       success: () => {
-        console.log('you did it');
         this.updateSkills(skill);
-        // callback to swap objects
       }
     });
   },
