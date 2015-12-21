@@ -2,7 +2,12 @@ var Body = React.createClass({
   render() {
     return (
       <div>
-        <AllSkills />
+        <div>
+          <NewSkill />
+        </div>
+        <div>
+          <AllSkills />
+        </div>
       </div>
     )
   }
